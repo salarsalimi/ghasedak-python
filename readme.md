@@ -22,7 +22,11 @@ sms.send({'message':'hello, world!', 'receptor' : '09xxxxxxxxx', 'linenumber': '
 
 sms.bulk1({'message':'hello, world!', 'receptor' : '09xxxxxxxxx,09xxxxxxxxx,09xxxxxxxxx', 'linenumber': 'xxxx', 'senddate': '', 'checkid': ''})
 ```
-
+## Common Errors
+IF you get error about non existence package of 'requests' just install it with pip:
+```shell
+pip3 install requests
+```
 ## license
 
 Released under the MIT License.
